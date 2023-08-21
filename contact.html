@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title> CareConnect </title>
+      <link rel= "stylesheet" href="style.css">
+    
+    <!------Google Font------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css>
+    
+    <!------paste link before icons will show------->
+    
+    <script src="https://kit.fontawesome.com/53ac63889f.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+    
+    <body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src= "images/New%20lololo.png"></a>
+           <div class="nav-links" id="navLinks">
+               
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+               
+               <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="About.html">ABOUT</a></li>
+               <li><a href="Contact.html">CONTACT</a></li>
+                
+               
+               </ul>
+            
+            </div>      
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        
+<h1> Contact Us</h1>
+        
+    </section>
+        
+ <!------contact information------->   
+<section class="contact-us">
+    
+    <div class="row">
+    <div class="contact-col">
+        <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+               <h5> CareConnect Office</h5>
+                <p style="text-align: left;"> Abuja </p>
+            </span>
+        
+        
+        </div>
+           <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+               <h5> 07039976374 </h5>
+                <p> Monday to Friday, 8am to 5pm </p>
+            </span>
+        
+        
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+               <h5 > careconnect697@gmail</h5>
+        <p style="text-align: left;"> Email Us </p>
+            </span>
+        
+        
+        </div>
+    </div>
+               
+    
+    <div class="contact-col"> 
+        
+        <form action="https://formspree.io/f/xknljejn" method="post">
+          <input type="text"  name="name"     placeholder="Enter your name"required>
+         <input type="email"  name="email"    placeholder="Enter email address"required>
+        <input type="text"    name="number"       placeholder="Enter your phone number "required>
+        <textarea rows="8"    name="Message"           placeholder="Message" required></textarea>
+        <button type="submit" class="btn">Submit</button>
+        
+        </form>
+        
+        
+        
+        
+    </div>
+        
+        
+   </div>      
+
+        
+        
+</section>
+
+
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+         
+         <!------Footer------->  
+        
+<section class="footer">
+
+   
+    <p>careconnect697@gmail.com</p> 
+    <p> 07039976374 </p>
+
+<div class="icons">
+    
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    
+</div>    
+     
+ </section>       
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+    
+<!------JavaScript for Toggle Menu on phone view ------->
+        
+<script>
+     
+     var navLinks = document.getElementById("navLinks");
+
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-200px"
+     }
+
+
+</script>
+       
+<!------JavaScript for working gmail------->
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+    </body>
+
+</html>
